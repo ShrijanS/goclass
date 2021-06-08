@@ -1,3 +1,3 @@
-module github.com/ShrijanS/firstclass
+module github.com/ShrijanS/goclass
 
 go 1.16

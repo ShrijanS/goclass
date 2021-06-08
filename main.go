@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/ShrijanS/firstclass/loop"
+	
+	"github.com/ShrijanS/goclass/array"
 )
 
 const Pi = 3.14
@@ -12,6 +13,14 @@ func main() {
 	// // values.Variable()
 	// values.Values()
 	// values.SwitchCase()
-	loop.LoopStatement()
+	// loop.LoopStatement()
+	// loop.GetPrimeNumbers(50)
+	// first, second := loop.PlusMinus(4, 5)
+	// fmt.Println(first)
+	// fmt.Println(second)
 
+	// loop.CheckSwap()
+
+	// array.ArrayMain()
+	array.SlicesMain()
 }
