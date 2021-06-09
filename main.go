@@ -2,7 +2,8 @@ package main
 
 import (
 	
-	"github.com/ShrijanS/goclass/array"
+	
+	"github.com/ShrijanS/goclass/rangeexample"
 )
 
 const Pi = 3.14
@@ -22,5 +23,6 @@ func main() {
 	// loop.CheckSwap()
 
 	// array.ArrayMain()
-	array.SlicesMain()
+	// array.SlicesMain()
+	rangeexample.RangeExample()
 }
