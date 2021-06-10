@@ -2,7 +2,6 @@ package main
 
 import (
 	
-	
 	"github.com/ShrijanS/goclass/rangeexample"
 )
 
@@ -24,5 +23,14 @@ func main() {
 
 	// array.ArrayMain()
 	// array.SlicesMain()
-	rangeexample.RangeExample()
+	// rangeexample.RangeExample()
+	rangeexample.MethodExample()
+
+}
+func getSequence() func() int {
+	i := 0
+	return func() int {
+		i += 1
+		return i
+	}
 }

@@ -2,12 +2,50 @@ package rangeexample
 
 import "fmt"
 
+type person struct {
+	firstName    string
+	lastName      string 
+	phoneNumber   string
+	age           int
+}
+
+
 func RangeExample(){
+	person := person{
+		firstName: "shrijan",
+		 lastName: "Suwal", 
+		 phoneNumber: "9893898389",
+		  age: 26,
+		}
+	fmt.Println("firstName = ", person.firstName)
+	fmt.Println("lastName = ", person.lastName)
+	fmt.Println("phoneNumber = ", person.phoneNumber)
+	fmt.Println("age = ", person.age)
 	// exampleOne()
 	// exampleMap()
-	exampleTwo()
+	// exampleTwo()
+	// exampleVariadicFunction()
 
 }
+
+func exampleVariadicFunction(){
+	nums := []int {2,3,4,5,6}
+	sum(1,2)
+	sum(1,2,6,7)
+	sum(nums...)
+}
+
+func sum(nums ...int) {
+	fmt.Println("nums value =", nums) 
+	sum := 0
+	// sum = nums[0]
+	for _, num := range nums {
+		sum += num
+	}
+	fmt.Println("sum = ", sum)
+	
+}
+
 
 func exampleTwo(){
 	for i, value := range "golang"{
