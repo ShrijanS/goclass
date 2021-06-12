@@ -1,8 +1,8 @@
 package main
 
 import (
-	
-	"github.com/ShrijanS/goclass/rangeexample"
+	"fmt"
+	"github.com/ShrijanS/goclass/iexample"
 )
 
 const Pi = 3.14
@@ -23,14 +23,14 @@ func main() {
 
 	// array.ArrayMain()
 	// array.SlicesMain()
-	// rangeexample.RangeExample()
-	rangeexample.MethodExample()
-
+	// // rangeexample.RangeExample()
+	// rangeexample.MethodExample()
+	iexample.MainStart()
 }
-func getSequence() func() int {
-	i := 0
-	return func() int {
-		i += 1
-		return i
-	}
-}
+// func getSequence() func() int {
+// 	i := 0
+// 	return func() int {
+// 		i += 1
+// 		return i
+// 	}
+// }
