@@ -26,7 +26,7 @@ func main() {
 	// // rangeexample.RangeExample()
 	// rangeexample.MethodExample()
 	// iexample.MainStart()
-	goexample.Example()
+	goexample.Example2()
 
 
 }
